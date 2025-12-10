@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopify Clone</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main>
+        <ul>
+            <li class="logo"><imsongItemPlay g src="/New folder/stopify clone/logo.png" alt="Stopify">Stopify</li>
+            <li>Home</li>
+            <li>Abouts</li>
+        </ul>
+    </main>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Music</h1>
+            <div class="songItemList">
+            <div class="songItem">
+                <img src="1.jpg" alt="1">
+                <span class="songName">Danger (From "Param Sundari")</span>
+                <span class="songPlay">4.45<i class="fa-solid songItemPlay fa-play" id="songPlay"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="2.jpg" alt="2">
+                <span class="songName">Bahli Sohni (From "Baaghi 4")</span>
+                <span class="songPlay">4.00<i class="fa-solid songItemPlay fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="3.jpg" alt="3">
+                <span class="songName">Ganesha Pancharatnam | गणेशा पंच...</span>
+                <span class="songPlay">4.55<i class="fa-solid songItemPlay fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="4.jpg" alt="4">
+                <span class="songName">Badli Si Hawa Hai - From "The Ba**</span>
+                <span class="songPlay">4.20<i class="fa-solid songItemPlay fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="5.jpg" alt="5">
+                <span class="songName">Tujhe Dekha To</span>
+                <span class="songPlay">4.23<i class="fa-solid songItemPlay fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="6.jpg" alt="6">
+                <span class="songName">Ek Ladki Ko Dekha</span>
+                <span class="songPlay">4.47<i class="fa-solid songItemPlay fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="7.jpg" alt="7">
+                <span class="songName">Bheegi Bheegi Raaton Mein</span>
+                <span class="songPlay">4.46<i class="fa-solid songItemPlay fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="8.jpg" alt="8">
+                <span class="songName">Mere Khwabon Mein</span>
+                <span class="songPlay">4.44<i class="fa-solid songItemPlay fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="9.jpg" alt="9">
+                <span class="songName">O Mere Dil Ke Chain</span>
+                <span class="songPlay">4.36<i class="fa-solid songItemPlay fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="10.jpg" alt="10">
+                <span class="songName">Ho Gaya Hai Tujhko To Pyar Sajna</span>
+                <span class="songPlay">4.15<i class="fa-solid songItemPlay fa-play"></i></span>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid songItemPlay fa-2x fa-backward"></i>
+            <i class="fa-solid songItemPlay fa-2x fa-play" id="masterPlay"></i>
+            <i class="fa-solid songItemPlay fa-2x fa-forward"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" alt="playing" id="gif"> Bheegi Bheegi Raaton Mein - Arijit Singh
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
